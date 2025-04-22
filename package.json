@@ -1,0 +1,29 @@
+{
+  "name": "sansanlabs-laravel-microsoft-graph",
+  "description": "A Laravel package for Microsoft Graph API integration.",
+  "keywords": [
+    "sansanlabs",
+    "laravel",
+    "microsoft-graph"
+  ],
+  "homepage": "https://github.com/sansanlabs/laravel-microsoft-graph#readme",
+  "bugs": {
+    "url": "https://github.com/sansanlabs/laravel-microsoft-graph/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sansanlabs/laravel-microsoft-graph.git"
+  },
+  "scripts": {
+    "prettier": "npx prettier . --write --ignore-path .prettierignore"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Edi Kurniawan",
+    "email": "edikurniawan.dev@gmail.com"
+  },
+  "devDependencies": {
+    "@prettier/plugin-php": "^0.22.4",
+    "prettier": "^3.5.3"
+  }
+}
