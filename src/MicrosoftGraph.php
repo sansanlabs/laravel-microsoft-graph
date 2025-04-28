@@ -9,13 +9,13 @@ use SanSanLabs\MicrosoftGraph\Exceptions\MicrosoftGraphException;
 class MicrosoftGraph {
   protected $client;
 
-  protected $baseUrl = "https://graph.microsoft.com/v1.0/";
+  protected $baseUrl = config("microsoftgraph.base_url");
 
   protected $accessToken;
 
   public function __construct() {
     $this->client = new Client();
-    $this->accessToken = session()->get(config("microsoft-graph.session_key"));
+    $this->accessToken = session()->get(config("microsoftgraph.session_key"));
   }
 
   public function getAccessToken() {
@@ -24,7 +24,7 @@ class MicrosoftGraph {
 
   public function setAccessToken($token) {
     $this->accessToken = $token;
-    session()->put(config("microsoft-graph.session_key"), $token);
+    session()->put(config("microsoftgraph.session_key"), $token);
 
     return $this;
   }

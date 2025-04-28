@@ -12,6 +12,6 @@ class MicrosoftGraphServiceProvider extends PackageServiceProvider {
      *
      * More info: https://github.com/spatie/laravel-package-tools
      */
-    $package->name("laravel-microsoft-graph")->hasConfigFile("microsoft-graph");
+    $package->name("laravel-microsoft-graph")->hasConfigFile("microsoftgraph");
   }
 }
