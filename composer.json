@@ -1,10 +1,15 @@
 {
   "name": "sansanlabs/laravel-microsoft-graph",
-  "description": ":package_description",
+  "description": "A Laravel package for integrating Microsoft Graph API.",
   "keywords": [
     "sansanlabs",
     "laravel",
-    "laravel-microsoft-graph"
+    "laravel-microsoft-graph",
+    "laravel",
+    "microsoft",
+    "graph",
+    "microsoft-graph",
+    "api"
   ],
   "homepage": "https://github.com/sansanlabs/laravel-microsoft-graph",
   "license": "MIT",
@@ -16,7 +21,7 @@
     }
   ],
   "require": {
-    "php": "^8.4",
+    "php": "^8.2",
     "spatie/laravel-package-tools": "^1.16",
     "illuminate/contracts": "^10.0||^11.0||^12.0"
   },
